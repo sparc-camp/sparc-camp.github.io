@@ -1,0 +1,34 @@
+---
+---
+@import "{{site.theme}}";
+
+
+// Testimonials
+
+.testimonial_author {
+	//text-align: right;
+	font-style: italic;
+}
+
+// Instructor 
+
+table#instructor_table td, 
+table#instructor_table {
+	border: none;
+}
+
+table#instructor_table tr.instructor_table_row {
+	background-color: #fdfdfd;
+}
+
+.instructor_img_td {
+	width: 200px;
+}
+
+img.instructor_img {
+	width: 95%;
+}
+
+table#instructor_table td {
+	vertical-align: top;
+}
