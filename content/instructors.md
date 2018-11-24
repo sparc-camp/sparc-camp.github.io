@@ -98,7 +98,7 @@ nav_order: 1
   </tr>
   <tr class="instructor_table_row">
     <td class="instructor_img_td">
-      <img src="/assets/instructors/katie.png" class="instructor_img"/>
+      <img src="/assets/instructors/katie.jpg" class="instructor_img"/>
     </td>
     <td>
       <div class="instructor_bio">
