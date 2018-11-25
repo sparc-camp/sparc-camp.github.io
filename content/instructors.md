@@ -102,7 +102,7 @@ nav_order: 1
     </td>
     <td>
       <div class="instructor_bio">
-        Katie Dunn is a recent graduate of MIT, where she studied astronomy & education. She enjoys literature, well-designed games, learning/trying new things, and helping others do the same.
+	  Katie Dunn received a B.S. in physics from MIT and is currently pursuing a Master’s in Education. She considers herself a generalist, having contributed to an open-source catalog of astronomical objects, investigated rhythm in speech production, and failed to grow intestinal stem cells. She enjoys reading books, studying new languages, and thinking about metacognition & how people learn.
       </div>
     </td>
   </tr>
