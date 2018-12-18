@@ -5,7 +5,7 @@ title: Projects
 nav_order: 2
 ---
 
-SPARC offers capital for its alumni to pursue impactful projects. We think there are many great ideas out there with too few hands working on them, and we’d like to lower the financial barrier for taking action. If you are a SPARC alumni, you can [apply for a grant]({{"https://docs.google.com/forms/d/1VBd863FWkIYxnwOLFgio-IyINgTZKFruTdmpJGXsYRI/"}}) or read [our FAQ]({{"https://docs.google.com/document/d/1EkBPRHep_EulB-HnfZ8FLLQBVW_tVMrJO874busQ-a8/"}}). Below are some of the projects we’ve sponsored.
+On the side, SPARC sponsors projects with high impact potential. Below are some of the projects we’ve sponsored.
 
 ### Hack Lodge
 
