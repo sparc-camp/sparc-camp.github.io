@@ -5,4 +5,4 @@ title: Apply
 nav_order: 3
 ---
 
-Applications for SPARC 2019 will open around January; stay tuned!
+Applications for SPARC 2019 will open early January; stay tuned!
