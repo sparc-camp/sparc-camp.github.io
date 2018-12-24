@@ -2,14 +2,6 @@
 ---
 @import "{{site.theme}}";
 
-
-// Testimonials
-
-.testimonial_author {
-	//text-align: right;
-	font-style: italic;
-}
-
 // Instructor 
 
 table#instructor_table td, 
@@ -38,6 +30,21 @@ table#instructor_table td {
 .logo-banner {
 	display: block;
 	border: 1px solid #333;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Testimonials
+
+.testimonial_author {
+	//text-align: right;
+	font-style: italic;
+}
+
+// Video 
+
+.youtubevideo {
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
