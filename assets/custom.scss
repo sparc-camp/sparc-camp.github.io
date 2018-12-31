@@ -79,7 +79,11 @@ a:hover {
 	background-color: $navbar-bg-color;
 }
 
-.site-header .page-link {
+.site-header .page-link,
+.site-header a:link,
+.site-header a:hover,
+.site-header a:visited,
+.site-header a:active, {
 	color: $url-color-neg;
 }
 
