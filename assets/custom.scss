@@ -2,6 +2,84 @@
 ---
 @import "{{site.theme}}";
 
+// -------------------------
+// -- GENERAL WEBSITE CSS --
+// -------------------------
+
+$main-bg-color: #CCC;
+$banner-height: 320px;
+$wrapper-width: calc(3 * #{$banner-height});
+$wrapper-padding: 50px;
+
+// General Design
+
+@font-face {
+	font-family: "Lora";
+	src: url("../assets/fonts/lora/Lora-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Lora-Bold";
+	src: url("../assets/fonts/lora/Lora-Bold.ttf");
+}
+
+strong {
+	font-weight: bold;
+	font-family: 'Lora-Bold', serif;
+}
+
+body {
+	font-family: 'Lora', serif;
+}
+
+.wrapper {
+	max-width: calc(#{$wrapper-width} - (2 * #{$wrapper-padding}));
+	padding-left: $wrapper-padding;
+	padding-right: $wrapper-padding;
+}
+
+// Header (navbar + site title)
+
+.site-header {
+	border-top: none;
+}
+
+// Banner 
+
+#banner-header {
+	background-color: $main-bg-color;
+}
+
+#banner {
+	max-width: $wrapper-width;
+	border: 1px solid black;
+	height: $banner-height;
+	background-color: #122448;
+}
+
+#banner-header > .wrapper {
+	padding: 0px;
+}
+
+// Page content
+
+.page-content {
+	background-color: $main-bg-color;
+	padding-top: 0px;
+}
+
+.page-content > .wrapper {
+	background-color: #EEE;
+	padding-top: 50px;
+}
+
+
+// -----------------------
+// -- PAGE SPECIFIC CSS --
+// -----------------------
+
+
+
 // Instructor 
 
 table#instructor_table td, 

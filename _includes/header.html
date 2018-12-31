@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper" id="sitehead">
     {%- assign default_paths = site.pages | sort: "nav_order" | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
@@ -28,3 +28,8 @@
     {%- endif -%}
   </div>
 </header>
+<div id="banner-header">
+  <div class="wrapper" id="banner">
+  	<!--Temporary text.-->
+  </div>
+</div>
