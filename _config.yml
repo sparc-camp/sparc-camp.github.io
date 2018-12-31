@@ -23,8 +23,8 @@ theme: minima
 plugins:
   - jekyll-feed
 assets:
-	sources:
-		-_assets/fonts
+  sources:
+    -_assets/fonts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
