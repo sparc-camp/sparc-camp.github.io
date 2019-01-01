@@ -10,4 +10,18 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  <script>
+    function generateBanner() {
+	  banner = document.getElementById("banner");
+	  nImages = banner.getAttribute("data-nImages");
+	  console.log("nImages", nImages);
+	  rand = Math.floor(nImages * Math.random());
+	  console.log(rand);
+	  imgname = "'/assets/bannerimgs/banner" + rand.toString() + ".jpg'";
+	  banner.style.backgroundImage = "url(" + imgname + ")";
+	}
+	window.onload = function() {
+	  generateBanner();
+	}
+  </script>
 </head>

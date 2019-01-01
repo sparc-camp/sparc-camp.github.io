@@ -32,7 +32,12 @@
   </div>
 </header>
 <div id="banner-header">
-  <div class="wrapper" id="banner">
-  	<!--Temporary text.-->
+  {% assign num_images = 0 %}
+  {% for image in site.static_files %}
+	{% if image.path contains 'assets/bannerimgs' %}
+	  {% assign num_images = num_images | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  <div class="wrapper" id="banner" data-nImages="{{num_images}}">
   </div>
 </div>

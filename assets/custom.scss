@@ -8,8 +8,8 @@
 
 $body-bg-color: #ddd;
 $navbar-bg-color: #142842;
+$navbar-bg-color: $body-bg-color;
 $content-bg-color: #f0f0f0;
-//$navbar-bg-color: #324C63;
 $banner-bg-color: #888;
 
 $max-banner-height: 320px;
@@ -18,6 +18,9 @@ $wrapper-padding: 50px;
 $site-title-size: 45px;
 
 $url-color-neg: #EEE;
+$url-color-neg: #111;
+
+$sparc-orange: #F79522;
 
 // General Design
 
@@ -57,12 +60,12 @@ a:link,
 a:visited,
 a:active, 
 a:hover {
-	color: #144298;
+	color: #E78817;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #2163D7;
+	color: $sparc-orange;
 }
 
 .wrapper {
@@ -75,24 +78,29 @@ a:hover {
 
 .site-header {
 	border-top: none;
+	border-bottom: none;
 	padding-top: 5px;
 	background-color: $navbar-bg-color;
 }
 
-.site-header .page-link,
-.site-header a:link,
-.site-header a:hover,
-.site-header a:visited,
-.site-header a:active, {
+.site-header .page-link:link,
+.site-header .page-link:hover,
+.site-header .page-link:visited,
+.site-header .page-link:active, {
 	color: $url-color-neg;
 }
 
 .site-title,
-.site-title:visited {
+.site-title:link,
+.site-title:visited,
+.site-title a:active,
+.site-title a:hover {
 	font-family: 'SiteTitleFont';  // Consider making this an image
 	float: none;
-	color: $url-color-neg;
+	//color: $url-color-neg;
+	color: $sparc-orange;
 	font-size: $site-title-size;
+	text-shadow: 1px 1px 1px #222;
 }
 
 .site-nav {
@@ -129,7 +137,8 @@ a:hover {
 	max-width: $wrapper-width;
 	max-height: $max-banner-height;
 	height: 33.33vw;
-	background-color: $banner-bg-color;
+	background-color: $body-bg-color;
+	background-size: contain;
 }
 
 #banner-header > .wrapper {
