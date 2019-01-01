@@ -12,8 +12,8 @@ $content-bg-color: #f0f0f0;
 //$navbar-bg-color: #324C63;
 $banner-bg-color: #888;
 
-$banner-height: 320px;
-$wrapper-width: calc(3 * #{$banner-height});
+$max-banner-height: 320px;
+$wrapper-width: calc(3 * #{$max-banner-height});
 $wrapper-padding: 50px;
 $site-title-size: 45px;
 
@@ -95,6 +95,20 @@ a:hover {
 	font-size: $site-title-size;
 }
 
+.site-nav {
+  @include media-query($on-palm) {
+	background-color: #222;
+	border: 1px solid $grey-color-dark;	
+
+	.menu-icon {
+	  > svg {
+		// Hamburger line fill
+		fill: $url-color-neg;
+      }
+	}
+  }
+}
+
 #site-title-logo-wrapper {
 	float: left;
 }
@@ -113,7 +127,8 @@ a:hover {
 
 #banner {
 	max-width: $wrapper-width;
-	height: $banner-height;
+	max-height: $max-banner-height;
+	height: 33.33vw;
 	background-color: $banner-bg-color;
 }
 
