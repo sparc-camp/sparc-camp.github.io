@@ -42,10 +42,10 @@ Need-based scholarships to cover the cost of travel are also available (you’ll
 The exact dates and location of SPARC 2019 have not yet been finalized. SPARC 2018 was hosted at California State University, East Bay, and ran from July 22nd through August 3rd.
 
 ### How is SPARC funded?
-SPARC’s receives the majority of its funding from the [Open Philanthropy Project]({{"https://www.openphilanthropy.org/about"}}).
-> The Open Philanthropy Project identifies outstanding giving opportunities, makes grants, follows the results, and publishes its findings. Its mission is to give as effectively as it can and share the findings openly so that anyone can build on them [(source)]({{"https://www.openphilanthropy.org/about/press-kit"}}).
+SPARC’s receives the majority of its funding from the [Open Philanthropy Project]({{"https://www.openphilanthropy.org/about"}}):
+> The Open Philanthropy Project identifies outstanding giving opportunities, makes grants, follows the results, and publishes its findings. Its mission is to give as effectively as it can and share the findings openly so that anyone can build on them.
 
-SPARC has also received grants from the [Future of Life Institute]({{"https://futureoflife.org/team/"}}).
-> FLI works to catalyze and support research and initiatives for safeguarding life and developing optimistic visions of the future, including positive ways for humanity to steer its own course considering new technologies and challenges [(source)]({{"https://futureoflife.org/team/"}}).
+SPARC has also received grants from the [Future of Life Institute]({{"https://futureoflife.org/team/"}}):
+> FLI works to catalyze and support research and initiatives for safeguarding life and developing optimistic visions of the future, including positive ways for humanity to steer its own course considering new technologies and challenges.
 
 Have a question that wasn’t answered here? E-mail us at contact@sparc-camp.org.

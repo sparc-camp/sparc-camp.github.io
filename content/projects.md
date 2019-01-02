@@ -5,7 +5,7 @@ title: Projects
 nav_order: 2
 ---
 
-On the side, SPARC sponsors projects with high impact potential. Below are some of the projects we’ve sponsored.
+On the side, SPARC sponsors alumni-organized projects with high impact potential. Below are some of the projects we’ve sponsored.
 
 ### Hack Lodge
 

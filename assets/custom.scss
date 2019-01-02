@@ -7,20 +7,27 @@
 // -------------------------
 
 $body-bg-color: #ddd;
-$navbar-bg-color: #142842;
-$navbar-bg-color: $body-bg-color;
+$navbar-bg-color: #3D2D2D;
+//$navbar-bg-color: $body-bg-color;
 $content-bg-color: #f0f0f0;
 $banner-bg-color: #888;
 
-$max-banner-height: 320px;
-$wrapper-width: calc(3 * #{$max-banner-height});
-$wrapper-padding: 50px;
 $site-title-size: 45px;
 
 $url-color-neg: #EEE;
-$url-color-neg: #111;
+//$url-color-neg: #111;
 
 $sparc-orange: #F79522;
+
+
+// $wrapper-padding-percent comes from dividing $wrapper-padding / $on-palm
+// calc() does not support unitless division
+// SASS does not support min of % and px
+$wrapper-padding: 48px;
+$wrapper-padding-percent: 8%;
+$max-banner-height: 320px;
+$wrapper-width: calc(3 * #{$max-banner-height});
+
 
 // General Design
 
@@ -53,14 +60,20 @@ strong {
 }
 
 body {
+	color: $text-color;
 	font-family: 'Lora', serif;
+}
+
+blockquote {
+	color: $body-text-color; 
+	font-size: $base-font-size;
 }
 
 a:link,
 a:visited,
 a:active, 
 a:hover {
-	color: #E78817;
+	color: #DA8014;
 }
 
 a:hover {
@@ -69,9 +82,15 @@ a:hover {
 }
 
 .wrapper {
-	max-width: calc(#{$wrapper-width} - (2 * #{$wrapper-padding}));
+	max-width: -webkit-calc(#{$wrapper-width} - (2 * #{$wrapper-padding}));
+	max-width:    -moz-calc(#{$wrapper-width} - (2 * #{$wrapper-padding}));
+	max-width:         calc(#{$wrapper-width} - (2 * #{$wrapper-padding}));
 	padding-left: $wrapper-padding;
 	padding-right: $wrapper-padding;
+	@include media-query ($on-palm) {
+		padding-left: $wrapper-padding-percent;
+		padding-right: $wrapper-padding-percent;
+	}
 }
 
 // Header (navbar + site title)
@@ -100,7 +119,6 @@ a:hover {
 	//color: $url-color-neg;
 	color: $sparc-orange;
 	font-size: $site-title-size;
-	text-shadow: 1px 1px 1px #222;
 }
 
 .site-nav {
@@ -129,8 +147,17 @@ a:hover {
 
 // Banner 
 
-#banner-header {
-	background-color: $body-bg-color;
+#banner-header,
+.page-content {
+	$outer-color: #D3CBB8;
+	$inner-color: #6D6027;
+	$outer-color: #FFFDE4;
+	$inner-color: #A75E00;
+	  background-image: linear-gradient(to right, $outer-color, $inner-color 50%, $outer-color 100%);
+  background-size: 100%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+	//background-color: $body-bg-color;
 }
 
 #banner {
@@ -148,7 +175,8 @@ a:hover {
 // Page content
 
 .page-content {
-	background-color: $body-bg-color;
+	//background-color: $body-bg-color;
+	//background: url("/assets/icons/what-the-hex.png") repeat;
 	padding-top: 0px;
 }
 
@@ -172,7 +200,7 @@ table#instructor_table {
 }
 
 table#instructor_table tr.instructor_table_row {
-	background-color: #fdfdfd;
+	background-color: $content-bg-color;
 }
 
 .instructor_img_td {
