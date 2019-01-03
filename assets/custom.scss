@@ -6,12 +6,13 @@
 // -- GENERAL WEBSITE CSS --
 // -------------------------
 
-$sparc-orange: #F79522;
+$original-sparc-orange: #F79522;
 $sparc-orange: #E87E00;
+
 $body-bg-color: #ddd;
 $navbar-bg-color: $sparc-orange;
 //$navbar-bg-color: $body-bg-color;
-$content-bg-color: #f0f0f0;
+$content-bg-color: #fafafa;
 $banner-bg-color: #888;
 
 $site-title-size: 45px;
@@ -53,6 +54,11 @@ $wrapper-width: calc(3 * #{$max-banner-height});
 @font-face {
 	font-family: "SiteTitleFont";
 	src: url("../assets/fonts/MuseoSans.ttf");
+}
+
+@font-face {
+	font-family: "ourSansFont";
+	src: url("../assets/fonts/Nunito.ttf");
 }
 
 strong {
@@ -107,6 +113,9 @@ a:hover {
 .site-header .page-link:hover,
 .site-header .page-link:visited,
 .site-header .page-link:active, {
+	font-size: 15px;
+	font-family: "ourSansFont", sans-serif;
+	text-transform: uppercase;
 	color: $url-color-neg;
 }
 
@@ -172,7 +181,10 @@ a:hover {
 }
 
 #banner-header > .wrapper {
+	$banner-border-color: #ccc;
 	padding: 0px;
+	border-left: 1px solid $banner-border-color; 
+	border-right: 1px solid $banner-border-color; 
 }
 
 // Page content
@@ -187,9 +199,7 @@ a:hover {
 	$page-content-border-color: #ccc;
 	background-color: $content-bg-color;
 	padding-top: 50px;
-	border-right: 1px solid $page-content-border-color;
-	border-bottom: 1px solid $page-content-border-color;
-	border-left: 1px solid $page-content-border-color;
+	border: 1px solid $page-content-border-color;
 }
 
 
