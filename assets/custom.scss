@@ -6,8 +6,10 @@
 // -- GENERAL WEBSITE CSS --
 // -------------------------
 
+$sparc-orange: #F79522;
+$sparc-orange: #E87E00;
 $body-bg-color: #ddd;
-$navbar-bg-color: #3D2D2D;
+$navbar-bg-color: $sparc-orange;
 //$navbar-bg-color: $body-bg-color;
 $content-bg-color: #f0f0f0;
 $banner-bg-color: #888;
@@ -17,7 +19,6 @@ $site-title-size: 45px;
 $url-color-neg: #EEE;
 //$url-color-neg: #111;
 
-$sparc-orange: #F79522;
 
 
 // $wrapper-padding-percent comes from dividing $wrapper-padding / $on-palm
@@ -118,6 +119,7 @@ a:hover {
 	float: none;
 	//color: $url-color-neg;
 	color: $sparc-orange;
+	color: #eee;
 	font-size: $site-title-size;
 }
 
@@ -153,11 +155,12 @@ a:hover {
 	$inner-color: #6D6027;
 	$outer-color: #FFFDE4;
 	$inner-color: #A75E00;
-	  background-image: linear-gradient(to right, $outer-color, $inner-color 50%, $outer-color 100%);
-  background-size: 100%;
-  background-position: 50% 100%;
-  background-repeat: no-repeat;
-	//background-color: $body-bg-color;
+	  //background-image: linear-gradient(to right, $outer-color 0px, $outer-color 310px, $inner-color 320px, $inner-color 1280px, $outer-color 1290px, $outer-color 100%);
+  // background-image: url("{{ '/assets/icons/what-the-hex.png' | relative }}");
+  // background-repeat: repeat repeat;
+  // background-size: auto;
+	background-color: $content-bg-color;
+	background-color: #eaeaea;
 }
 
 #banner {
@@ -181,8 +184,12 @@ a:hover {
 }
 
 .page-content > .wrapper {
+	$page-content-border-color: #ccc;
 	background-color: $content-bg-color;
 	padding-top: 50px;
+	border-right: 1px solid $page-content-border-color;
+	border-bottom: 1px solid $page-content-border-color;
+	border-left: 1px solid $page-content-border-color;
 }
 
 
