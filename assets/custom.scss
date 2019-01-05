@@ -10,16 +10,16 @@ $original-sparc-orange: #F79522;
 $sparc-orange: #E87E00;
 $sparc-blue: #448BB1;
 
-$body-bg-color: #ddd;
+$body-bg-color: #EAEAEA;
 $navbar-bg-color: $sparc-orange;
 //$navbar-bg-color: $body-bg-color;
-$content-bg-color: #fafafa;
-$url-color-neg: $content-bg-color;
+$content-bg-color: #FAFAFA;
+$nav-url-color: $content-bg-color;
 
 $banner-bg-color: #888;
 $site-title-size: 45px;
 
-//$url-color-neg: #111;
+//$nav-url-color: #111;
 
 
 
@@ -135,7 +135,7 @@ a:hover {
 	font-family: "OpenSans", sans-serif;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	color: $url-color-neg;
+	color: $nav-url-color;
 }
 
 .site-title,
@@ -145,9 +145,7 @@ a:hover {
 .site-title a:hover {
 	font-family: 'SiteTitleFont', Helvetica;  // Consider making this an image
 	float: none;
-	//color: $url-color-neg;
-	color: $sparc-orange;
-	color: #eee;
+	color: $nav-url-color;;
 	font-size: $site-title-size;
 }
 
@@ -159,7 +157,7 @@ a:hover {
 	.menu-icon {
 	  > svg {
 		// Hamburger line fill
-		fill: $url-color-neg;
+		fill: $nav-url-color;
       }
 	}
   }
@@ -167,6 +165,9 @@ a:hover {
 
 .site-nav .page-link-wrapper:not(:last-child) {
 	margin-right: 20px;
+	@include media-query ($on-palm) {
+		margin-right: 0px;
+	}
 }
 
 .page-link-wrapper {
@@ -199,16 +200,7 @@ a:hover {
 
 #banner-header,
 .page-content {
-	$outer-color: #D3CBB8;
-	$inner-color: #6D6027;
-	$outer-color: #FFFDE4;
-	$inner-color: #A75E00;
-	  //background-image: linear-gradient(to right, $outer-color 0px, $outer-color 310px, $inner-color 320px, $inner-color 1280px, $outer-color 1290px, $outer-color 100%);
-  // background-image: url("{{ '/assets/icons/what-the-hex.png' | relative }}");
-  // background-repeat: repeat repeat;
-  // background-size: auto;
-	background-color: $content-bg-color;
-	background-color: #eaeaea;
+	background-color: $body-bg-color;
 }
 
 #banner {
@@ -238,6 +230,7 @@ a:hover {
 	$page-content-border-color: #ccc;
 	background-color: $content-bg-color;
 	padding-top: 50px;
+	padding-bottom: 30px;
 	border: 1px solid $page-content-border-color;
 }
 
