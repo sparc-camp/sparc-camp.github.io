@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
-  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/icons/blue-logo.png" | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/icons/orange-logo.png" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/custom.css" | relative_url }}">
   {%- feed_meta -%}
@@ -14,11 +14,12 @@
     function generateBanner() {
 	  banner = document.getElementById("banner");
 	  nImages = banner.getAttribute("data-nImages");
-	  console.log("nImages", nImages);
-	  rand = Math.floor(nImages * Math.random());
-	  console.log(rand);
-	  imgname = "'/assets/bannerimgs/banner" + rand.toString() + ".jpg'";
-	  banner.style.backgroundImage = "url(" + imgname + ")";
+	  imgPrefix = banner.getAttribute("data-imgPrefix");
+	  imgSuffix = ".jpg";
+
+	  rand = Math.floor(nImages * Math.random()).toString();
+	  imgName = imgPrefix + rand + imgSuffix;
+	  banner.style.backgroundImage = "url('" + imgName + "')";
 	}
 	window.onload = function() {
 	  generateBanner();

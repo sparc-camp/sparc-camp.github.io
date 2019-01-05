@@ -33,11 +33,21 @@
 </header>
 <div id="banner-header">
   {% assign num_images = 0 %}
+  {% assign curr_page = page.title | downcase %}
+  <!-- Append any pages that should have fixed banners to array -->
+  {% assign fixed_banner_pages = "home", %}
+  {% assign img_prefix = '/assets/banner/' %}
+  {% if fixed_banner_pages contains curr_page %}
+  	{% assign img_prefix = img_prefix | append: curr_page | append: '/' %}
+  {% else %}
+  	{% assign img_prefix = img_prefix | append: 'general' | append: '/' %}
+  {% endif %}
+
   {% for image in site.static_files %}
-	{% if image.path contains 'assets/bannerimgs' %}
+	{% if image.path contains img_prefix %}
 	  {% assign num_images = num_images | plus: 1 %}
     {% endif %}
   {% endfor %}
-  <div class="wrapper" id="banner" data-nImages="{{num_images}}">
+  <div class="wrapper" id="banner" data-nImages="{{num_images}}" data-imgPrefix="{{img_prefix}}">
   </div>
 </div>
