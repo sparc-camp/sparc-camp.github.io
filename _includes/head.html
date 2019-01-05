@@ -11,18 +11,36 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   <script>
-    function generateBanner() {
-	  banner = document.getElementById("banner");
-	  nImages = banner.getAttribute("data-nImages");
-	  imgPrefix = banner.getAttribute("data-imgPrefix");
-	  imgSuffix = ".jpg";
+	IMG_SUFFIX = ".jpg";
 
-	  rand = Math.floor(nImages * Math.random()).toString();
-	  imgName = imgPrefix + rand + imgSuffix;
-	  banner.style.backgroundImage = "url('" + imgName + "')";
+    function generateBanner() {
+		banner = document.getElementById("banner");
+		nImages = banner.getAttribute("data-nImages");
+		imgPrefix = banner.getAttribute("data-imgPrefix");
+
+		rand = Math.floor(nImages * Math.random()).toString();
+		imgName = imgPrefix + rand + IMG_SUFFIX;
+		banner.style.backgroundImage = "url('" + imgName + "')";
 	}
+	
+	function preloadBannerImages() {
+		IMAGES = {
+			"/assets/banner/general/": 14, 
+			"/assets/banner/home/": 3
+		}
+		for (var dir in IMAGES) {
+			for (var i=0; i<IMAGES[dir]; i++) {
+				var img = new Image();
+				path = dir + i.toString() + IMG_SUFFIX;
+				img.src = path;
+				console.log("Loaded:", path);
+			}
+		}
+	}
+	
 	window.onload = function() {
-	  generateBanner();
+		generateBanner();
+		preloadBannerImages();
 	}
   </script>
 </head>
