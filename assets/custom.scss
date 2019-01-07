@@ -21,8 +21,6 @@ $site-title-size: 45px;
 
 //$nav-url-color: #111;
 
-
-
 // $wrapper-padding-percent comes from dividing $wrapper-padding / $on-palm
 // calc() does not support unitless division
 // SASS does not support min of % and px
@@ -62,12 +60,19 @@ $wrapper-width: calc(3 * #{$max-banner-height});
 	src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
+@mixin vertical-center() {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 strong {
 	font-weight: bold;
 	font-family: 'Lora', serif;
 }
 
 body {
+	background-color: $body-bg-color;
 	color: $text-color;
 	font-family: 'Lora', serif;
 }
@@ -110,21 +115,20 @@ a:hover {
 // Header (navbar + site title)
 
 #sitehead.wrapper {
-	//margin-top: auto;
-	//margin-bottom: auto;
 	height: 70%;
-	position: relative;
-	top: 50%;
-	transform: perspective(1px) translateY(-50%);
+	@include vertical-center();
 }
 
 .site-header {
-	height: 75px;
+	width: $wrapper-width;
+	height: 60px;
 	border-top: none;
 	border-bottom: none;
 	padding: 0px;
 	//padding-top: 5px;
 	background-color: $navbar-bg-color;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .site-header .page-link:link,
@@ -133,7 +137,7 @@ a:hover {
 .site-header .page-link:active, {
 	font-size: 15px;
 	font-family: "OpenSans", sans-serif;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.2px;
 	text-transform: uppercase;
 	color: $nav-url-color;
 }
@@ -160,11 +164,12 @@ a:hover {
 		fill: $nav-url-color;
       }
 	}
-  }
+  };
+  @include vertical-center();
 }
 
 .site-nav .page-link-wrapper:not(:last-child) {
-	margin-right: 20px;
+	margin-right: 16px;
 	@include media-query ($on-palm) {
 		margin-right: 0px;
 	}
@@ -180,8 +185,7 @@ a:hover {
 	// OpenSans is a badly designed font, with the top whitespace
 	// higher than the bottom whitespace. Thus, I need to manually
 	// offset the site-title to make it look centered vertically.
-	transform: perspective(1px) translateY(-3px);
-	height: 100%;
+    @include vertical-center();
 	float: left;
 }
 
@@ -192,7 +196,7 @@ a:hover {
 }
 
 .current-page {
-	border-bottom: 3px solid $sparc-blue;
+	border-bottom: 4px solid $sparc-blue;
 	padding-bottom: 5px;
 }
 
