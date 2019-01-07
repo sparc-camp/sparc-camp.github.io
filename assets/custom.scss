@@ -182,9 +182,6 @@ a:hover {
 }
 
 #site-title-logo-wrapper {
-	// OpenSans is a badly designed font, with the top whitespace
-	// higher than the bottom whitespace. Thus, I need to manually
-	// offset the site-title to make it look centered vertically.
     @include vertical-center();
 	float: left;
 }
