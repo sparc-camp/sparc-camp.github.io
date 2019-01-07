@@ -66,6 +66,19 @@ $wrapper-width: calc(3 * #{$max-banner-height});
 	transform: translateY(-50%);
 }
 
+@mixin media-max-width($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin media-min-width($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+
 strong {
 	font-weight: bold;
 	font-family: 'Lora', serif;
@@ -106,7 +119,7 @@ a:hover {
 	max-width:         calc(#{$wrapper-width} - (2 * #{$wrapper-padding}));
 	padding-left: $wrapper-padding;
 	padding-right: $wrapper-padding;
-	@include media-query ($on-palm) {
+	@include media-max-width ($on-palm) {
 		padding-left: $wrapper-padding-percent;
 		padding-right: $wrapper-padding-percent;
 	}
@@ -120,7 +133,7 @@ a:hover {
 }
 
 .site-header {
-	width: $wrapper-width;
+	width: 100%;
 	height: 60px;
 	border-top: none;
 	border-bottom: none;
@@ -154,23 +167,39 @@ a:hover {
 }
 
 .site-nav {
-  @include media-query($on-palm) {
+  @include media-max-width($on-palm) {
+	border-radius: 0px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	// Hack: Based on sitehead.wrapper height (70% of 60px)
+	// 		 and manually adjusted margin-top
+	margin-top: 2px;
 	background-color: #222;
-	border: 1px solid $grey-color-dark;	
+	border: 0px;
 
 	.menu-icon {
+	  background-color: $sparc-orange;
 	  > svg {
 		// Hamburger line fill
 		fill: $nav-url-color;
       }
 	}
+	
+	input:checked ~ label > .menu-icon {
+	  //border-radius: 5px;
+	  background-color: #222;
+	}
   };
-  @include vertical-center();
+
+  @include media-min-width($on-palm) {
+  	@include vertical-center();
+  };
 }
 
 .site-nav .page-link-wrapper:not(:last-child) {
 	margin-right: 16px;
-	@include media-query ($on-palm) {
+	@include media-max-width ($on-palm) {
 		margin-right: 0px;
 	}
 }
