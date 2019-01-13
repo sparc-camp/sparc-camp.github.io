@@ -11,4 +11,4 @@ On the side, SPARC sponsors alumni-organized projects with high impact potential
 
 [![hacklodge.org](/assets/images/hacklodge.png){:.logo-banner}]({{"https://hacklodge.org/"}})
 
-Hack Lodge is an immersive and intimate software development program for students. Teams spend a week working intensely on a software project of their choosing, with the ultimate goal of shipping a polished product by the end of the program. Participants come from a variety of technical backgrounds, from students with no formal engineering experience to experienced developers with years in industry.
+Hack Lodge is an immersive and intimate software development program for students. Teams spend a week working intensely on a software project of their choosing, with the ultimate goal of shipping a polished product by the end of the program. Participants come from a variety of technical backgrounds, from students with no formal engineering experience to experienced developers with years in industry. Past projects have included neat tech hacks, apps, games, and VC-backed companies.
