@@ -39,7 +39,7 @@ In order to attract the best students possible, SPARC is completely free. In par
 Need-based scholarships to cover the cost of travel are also available (you’ll have the chance to apply for one if you’re admitted to SPARC).
 
 ### When and where will the camp be held?
-The exact dates and location of SPARC 2019 have not yet been finalized. SPARC 2018 was hosted at California State University, East Bay, and ran from July 22nd through August 3rd.
+SPARC 2019 will be held from July 24 to August 2nd at California State University, East Bay.
 
 ### How is SPARC funded?
 SPARC’s receives the majority of its funding from the [Open Philanthropy Project]({{"https://www.openphilanthropy.org/about"}}):
