@@ -17,4 +17,4 @@ Perhaps most importantly, SPARC students are surrounded by a community of though
 
 The program is free for all admitted students.
 
-Interested? Applications for SPARC 2019 will become available sometime in the winter. For more information about SPARC, check out our [FAQ]({{"/faq/"}}) or our [video]({{"/video/"}}) from 2014.
+Interested? Applications for SPARC 2019 are now [open]({{"/apply"}}). For more information about SPARC, check out our [FAQ]({{"/faq/"}}) or our [video]({{"/video/"}}) from 2014.
