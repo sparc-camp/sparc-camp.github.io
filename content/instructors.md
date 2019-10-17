@@ -66,6 +66,7 @@ nav_order: 1
       </div>
     </td>
   </tr>
+  
   <tr class="instructor_table_row">
     <td class="instructor_img_td">
       <img src="/assets/instructors/mikewebb.jpg" class="instructor_img"/>
@@ -76,6 +77,7 @@ nav_order: 1
       </div>
     </td>
   </tr>
+<!---  
   <tr class="instructor_table_row">
     <td class="instructor_img_td">
       <img src="/assets/instructors/jaan.jpg" class="instructor_img"/>
@@ -96,6 +98,8 @@ nav_order: 1
       </div>
     </td>
   </tr>
+--->  
+  
   <tr class="instructor_table_row">
     <td class="instructor_img_td">
       <img src="/assets/instructors/katie.jpg" class="instructor_img"/>
@@ -113,6 +117,17 @@ nav_order: 1
     <td>
       <div class="instructor_bio">
         <b>Damon Sasi</b> is a licensed Marriage and Family Therapist in Florida, where he works as a therapist by day and writes Pokemon rational fiction by night. He’s a strong believer in the power of rationality to improve therapeutic practices, as well as stories as a catalyst for growth, and is working to combine all three in as many ways as possible.
+      </div>
+    </td>
+  </tr>
+  
+  <tr class="instructor_table_row">
+    <td class="instructor_img_td">
+      <img src="/assets/instructors/david.png" class="instructor_img"/>
+    </td>
+    <td>
+      <div class="instructor_bio">
+        <b>David Yu</b>, the logistics lead at SPARC, is researching scalable collaborative cultures – thinking about how we can design better ecosystems for humanity to thrive and solving some of the largest social-technical problems facing us today. In the past, he has spent 5 years in tech startups as a director of growth at one, and an anthropologist at another. He loves talking about how we learn, communicate, and relate to each other.
       </div>
     </td>
   </tr>
