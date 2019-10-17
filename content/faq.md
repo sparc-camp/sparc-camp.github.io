@@ -33,6 +33,9 @@ You must be at least 14 years of age. Historically, we only took high school stu
 
 If you do not meet these criteria but would still like to come, please e-mail us at contact@sparc-camp.org to discuss exceptions. International students are welcome.
 
+### What grade reports, test scores, or recommendation letters will I need to apply for SPARC?
+None! We create our own custom written application, which is followed by a short candidate interview if necessary.
+
 ### How much does the camp cost?
 In order to attract the best students possible, SPARC is completely free. In particular, boarding and food are provided.
 
