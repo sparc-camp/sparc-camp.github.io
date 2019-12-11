@@ -18,16 +18,6 @@ nav_order: 1
   </tr>
   <tr class="instructor_table_row">
     <td class="instructor_img_td">
-      <img src="/assets/instructors/jacob.jpg" class="instructor_img"/>
-    </td>
-    <td>
-      <div class="instructor_bio">
-        <b>Jacob Steinhardt</b> recently finished a PhD at Stanford University and will be joining UC Berkeley as an assistant professor of Statistics. His research focuses on designing machine learning systems that are reliable and easy to reason about. Other interests include mathematics, robotics, and cognitive science. He is a fan and technical advisor of the Open Philanthropy Project. He received a silver medal at the International Olympiad in Informatics and has coached for the USA Computing Olympiad since 2009. In his free time he likes playing ultimate frisbee and rock-climbing.
-      </div>
-    </td>
-  </tr>
-  <tr class="instructor_table_row">
-    <td class="instructor_img_td">
       <img src="/assets/instructors/paul.jpg" class="instructor_img"/>
     </td>
     <td>
@@ -74,6 +64,16 @@ nav_order: 1
     <td>
       <div class="instructor_bio">
         <b>Michael Webb</b> is a PhD student in Economics at Stanford University. His research focuses on automation and its effects on the economy, the relationship between education and productivity, and causality. He previously served as a correspondent for The Economist, as senior economic aide to a British legislator, and as a research economist at the Institute for Fiscal Studies. He holds degrees from Oxford and MIT.
+      </div>
+    </td>
+  </tr>
+  <tr class="instructor_table_row">
+    <td class="instructor_img_td">
+      <img src="/assets/instructors/cat.jpg" class="instructor_img"/>
+    </td>
+    <td>
+      <div class="instructor_bio">
+        <b>Catherine Wu</b> is a technical product manager at Mastercard, after studying applied math with a focus on neuroscience at Harvard University. Long term, she wants to learn what makes people tick — how humans behave on an individual and population level. Previously, she has taught at USABO, after competing herself at the International Biology Olympiad. When not working, Catherine enjoys reading, social board games, and (recently) getting knocked down in Aikido.
       </div>
     </td>
   </tr>
