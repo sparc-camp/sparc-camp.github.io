@@ -18,5 +18,3 @@ Perhaps most importantly, SPARC students are surrounded by a community of though
 The program is free for all admitted students.
 
 For more information about SPARC, check out our [FAQ]({{"/faq/"}}) or our [video]({{"/video/"}}) from 2014.
-
-SPARC 2020 will be held from July 28th to August 8th at California State University, East Bay.
