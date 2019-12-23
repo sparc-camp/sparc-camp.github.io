@@ -29,7 +29,7 @@ Yes. The SPARC curriculum mostly requires curiosity, thoughtfulness, and a sharp
 SPARC will admit about 30 students.
 
 ### Who is eligible to apply?
-You must be at least 14 years of age. Historically, we only took high school students or students who had not yet spent a semester in college, but this past year we began experimenting with admitting college freshmen as well. The eligibility policy for SPARC 2019 will be finalized closer to when applications open in the winter.
+You must be at least 14 years of age. You are welcome to apply if you are currently in high school or have not finished your first year as an undergraduate (i.e. college freshmen may apply). In general, we expect to mostly accept students who are in at least 11th grade of high school. Younger students are welcome to apply, but if you are not accepted this year, we encourage you to apply in future years.
 
 If you do not meet these criteria but would still like to come, please e-mail us at contact@sparc-camp.org to discuss exceptions. International students are welcome.
 
@@ -39,10 +39,10 @@ None! We create our own custom written application, which is followed by a short
 ### How much does the camp cost?
 In order to attract the best students possible, SPARC is completely free. In particular, boarding and food are provided.
 
-Need-based scholarships to cover the cost of travel are also available (you’ll have the chance to apply for one if you’re admitted to SPARC).
+Need-based scholarships to cover the cost of travel are also available (you’ll have the chance to apply for one if you are admitted to SPARC).
 
 ### When and where will the camp be held?
-SPARC 2019 will be held from July 24th to August 2nd at California State University, East Bay.
+SPARC 2020 will likely be held from July 28, 2020 to August 8, 2020 at California State University, East Bay.
 
 ### How is SPARC funded?
 SPARC’s receives the majority of its funding from the [Open Philanthropy Project]({{"https://www.openphilanthropy.org/about"}}):
