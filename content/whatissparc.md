@@ -17,4 +17,4 @@ Perhaps most importantly, SPARC students are surrounded by a community of though
 
 The program is free for all admitted students.
 
-For more information about SPARC, check out our [FAQ]({{"/faq/"}}) or our [video]({{"/video/"}}) from 2014. We also have a [podcast]({{"/podcast/"}} that you can listen to to get a sense of what SPARC is like. 
+For more information about SPARC, check out our [FAQ]({{"/faq/"}}) or our [video]({{"/video/"}}) from 2014. We also have a [podcast]({{"/podcast/"}}) that you can listen to to get a sense of what SPARC is like. 
