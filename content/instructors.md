@@ -28,16 +28,6 @@ nav_order: 1
   </tr>
   <tr class="instructor_table_row">
     <td class="instructor_img_td">
-      <img src="/assets/instructors/critch.jpg" class="instructor_img"/>
-    </td>
-    <td>
-      <div class="instructor_bio">
-        <b>Andrew Critch</b> received his PhD in mathematics from UC Berkeley, where he specialized in algebraic statistics, and particularly its applications to machine learning and causal inference. He was awarded a three-year research faculty position at the NSF-sponsored Mathematical Biosciences Institute, but soon after decided to learn about the stock market and began working as an algorithmic trader for Jane Street Capital in New York. He loves thinking about causality, cognitive science, markets, and apparent philosophical paradoxes, and wants to convince you that free will and determinism are compatible. He also likes helping people to understand their goals and adopt new and productive habits.
-      </div>
-    </td>
-  </tr>
-  <tr class="instructor_table_row">
-    <td class="instructor_img_td">
       <img src="/assets/instructors/qiaochu.jpg" class="instructor_img"/>
     </td>
     <td>
