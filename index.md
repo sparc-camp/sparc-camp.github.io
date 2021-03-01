@@ -8,4 +8,4 @@ nav_order: 0
 
 {% include_relative /content/whatissparc.md %}
 
-*Update* (1/27/21) Due to COVID-19, SPARC 2021 will still be held virtually. Tentatively, the program is slated to run **months of July and August**. We are planning to open up applications mid to late February, and will have more details on the program then.
+*Update* (2/28/2021): Update (2/28/21) **SPARC 2021 will still be held virtually again this year, running for 10 days from August 8 - 17, 2021**. From running a 2 month long virtual SPARC last year, we feel ready to now adapt SPARC to an intensive summer experience that is fitting for a virtual environment. [Applications](https://forms.gle/unCGuszKzfHwsLLc6) are now open!
